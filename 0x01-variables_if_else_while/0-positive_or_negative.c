@@ -8,6 +8,7 @@
 * to the variable n each time it is executed
 * And print whether the number stored in the
 * variable n is positive or negative.
+* Return: 0 if exited properly, non-zero otherwise
 */
 int main(void)
 {
