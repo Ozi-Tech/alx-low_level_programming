@@ -4,7 +4,7 @@
  * Return: 0
  */
 
-int main(void);
+int main(void)
 {
 for(int x = 'A'; x <= 'Z'; x++)
     {
