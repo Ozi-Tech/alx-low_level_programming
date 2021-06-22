@@ -2,10 +2,10 @@
 
 /**
  * main - prints Holberton, followed by a new line
- * return: 0
+ * Return: 0
  */
 
-int main ()
+int main(void)
 {
 	_putchar('H');
 	_putchar('o');
@@ -16,7 +16,8 @@ int main ()
 	_putchar('t');
 	_putchar('o');
 	_putchar('n');
+
 	_putchar('\n');
 
-	return(0);
+	return (0);
 }
