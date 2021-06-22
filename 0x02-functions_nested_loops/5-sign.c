@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  *print_sign - display + positive, - negative, 0 zero
  *@n: parameter character or code ascii

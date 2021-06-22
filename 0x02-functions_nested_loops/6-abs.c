@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  *_abs - display absolute number
  *@n: parameter integer
