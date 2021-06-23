@@ -4,7 +4,7 @@
  * return: 0
  */
 
-int main()
+int main(void)
 {
 	int i;
 	int n = 50;
@@ -14,7 +14,7 @@ int main()
 
 	printf("%d, %d, ", t1, t2);
 
-	for (i = 1; i <= n; ++i)
+	for (i = 1; i <= n; i++)
 	{
 		printf("%d, ", nextTerm);
 		t1 = t2;
@@ -22,5 +22,5 @@ int main()
 		nextTerm = t1 + t2;
 	}
 
-	return 0;
+	return (0);
 }
