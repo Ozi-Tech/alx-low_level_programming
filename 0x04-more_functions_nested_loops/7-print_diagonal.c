@@ -6,20 +6,23 @@
 
 void print_line(int n)
 {
-	int x;
-	int y;
+	int i;
+	int u;
 
-	for (x = 1; x <= n; x++)
+	if (n > 0)
 	{
-		for (y = 1; y < x; y++)
-			_putchar(' ')
-		if (n <= 0)
-			_putchar('\n');
-		else
+		for (i = 0; i < n; i++)
 		{
+			for (u = 0; u < i; u++)
+			{
+				_putchar(' ');
+			}
 			_putchar('\\');
 			_putchar('\n');
 		}
 	}
-	_putchar('\n');
+	else
+	{
+		_putchar('\n');
+	}
 }
