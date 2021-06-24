@@ -5,6 +5,7 @@
  *@size: parameter integer
  *Return: void
  */
+
 void print_triangle(int size)
 {
 	int i, j, tmp;
