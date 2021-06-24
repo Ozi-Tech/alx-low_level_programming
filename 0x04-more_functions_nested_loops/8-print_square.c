@@ -1,14 +1,14 @@
 #include "holberton.h"
 /**
- * print_square - print a square
+ * print_square - prints a square using #
+ * @size: parameter integer
  * Return: 0
  */
 
 void print_square(int size)
 {
-	char x;
+	int x;
 	int y;
-	int z;
 
 	if (size > 0)
 	{

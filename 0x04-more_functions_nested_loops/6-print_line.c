@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
  * print_line - function that draws a line
+ * @n: character or ascii code
  * Return: 0
  */
 

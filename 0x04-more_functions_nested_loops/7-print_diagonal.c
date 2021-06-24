@@ -1,10 +1,11 @@
 #include "holberton.h"
 /**
- * print_line - function that draws a line
+ * print_diagonal - prints a diagonal line
+ * @n: character or ascii code
  * Return: 0
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i;
 	int u;
