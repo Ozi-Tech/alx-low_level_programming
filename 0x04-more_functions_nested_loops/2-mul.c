@@ -3,7 +3,8 @@
 /**
  * mul - multiplies 2 integers
  * (0 through 9)
- * @c: character or ascii code
+ * @a: character or ascii code
+ * @b: character or ascii code
  * Return: 0
  */
 
