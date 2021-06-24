@@ -11,32 +11,25 @@
 
 int main(void)
 {
-	int a;
+	int i, t, f;
 
-	for (a = 1; a <= 100; a++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (a % 3 == 0)
-		{
-			printf("Fizz");
-		}
-		else if (a % 5 == 0)
-		{
-			printf("Buzz");
-		}
-		else if (a % 3 == 0 && a % 5 == 0)
-		{
-			printf("FizzBuzz");
-		}
-		else
-		{
-			printf("%d", a);
-		}
-		if (a != 100)
-		{
-			_putchar(' ');
-		}
-	}
-	_putchar('\n');
+		t = i % 3;
+		f = i % 5;
 
+		if (t == 0 && f == 0)
+			printf("FizzBuzz");
+		else if (f == 0)
+			printf("Buzz");
+		else if (t == 0)
+			printf("Fizz");
+		else
+			printf("%d", i);
+
+		if (i != 100)
+			putchar(' ');
+	}
+	printf("\n");
 	return (0);
 }
