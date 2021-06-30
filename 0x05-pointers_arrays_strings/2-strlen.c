@@ -1,3 +1,4 @@
+#include "holberton.h"
 /**
  *_strlen - return size of array char
  *@s: pointer integer
