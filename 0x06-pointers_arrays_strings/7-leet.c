@@ -19,6 +19,5 @@ char *leet(char *s)
 				s[i] = arr_int[j] + '0';
 		}
 	}
-
 	return (s);
 }

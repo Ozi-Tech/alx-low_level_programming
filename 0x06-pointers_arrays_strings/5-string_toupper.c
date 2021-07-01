@@ -1,21 +1,19 @@
 #include "holberton.h"
 /**
  * string_toupper - changes lowercase to uppercase
- * @a: pointer parameter character
+ * @s: pointer parameter character
  * Return: 0
  */
 
-char *string_toupper(char *a)
+char *string_toupper(char *s)
 {
-	char *a;
+	char *s;
   	int i;
 
-  	for (i = 0; a[i]!='\0'; i++)
-  	{
-  		if(a[i] >= 'a' && a[i] <= 'z')
-  		{
-  			a[i] = a[i] - 32;
-		}
-  	}
+	for (i = 0; s[i]; i++)
+	{
+		if (s[i] >= 97 && s[i] <= 122)
+			s[i] -= 32;
+	}
   	return 0;
 }
