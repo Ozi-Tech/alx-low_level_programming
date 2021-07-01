@@ -1,0 +1,1 @@
+This project contains all the tasks for 0x06 pointers, arrays and strings.
