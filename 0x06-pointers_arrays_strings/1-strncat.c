@@ -1,7 +1,10 @@
 #include "holberton.h"
 /**
- * _strncat -
- * Return:
+ * _strncat - _strcat but with a byte limit
+ * @dest: pointer parameter destination
+ * @src: pointer parameter source
+ * @n: parameter integer
+ * Return: pointer to destination
  */
 
 char *_strncat(char *dest, char *src, int n)
