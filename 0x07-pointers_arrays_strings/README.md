@@ -1,0 +1,1 @@
+More freaking pointers, arrays and strings... just kill me.
