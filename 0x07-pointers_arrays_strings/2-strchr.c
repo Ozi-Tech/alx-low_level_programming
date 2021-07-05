@@ -20,6 +20,7 @@ char *_strchr(char *s, char c)
 		if (s[n] == 'c')
 		{
 			s = &s[n];
+			break;
 		}
 		if (s[n] == '\0')
 		{

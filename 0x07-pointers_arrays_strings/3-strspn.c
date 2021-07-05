@@ -29,6 +29,11 @@ unsigned int _strspn(char *s, char *accept)
 			if (s[i] == accept[n])
 			{
 				count++;
+				break;
+			}
+			if (!accept[j])
+			{
+				i = x;
 			}
 		}
 	}
