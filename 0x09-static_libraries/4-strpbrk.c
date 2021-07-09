@@ -33,6 +33,6 @@ char *_strpbrk(char *s, char *accept)
 
 		}
 	}
-	s = 0
+	s = 0;
 	return (s);
 }
