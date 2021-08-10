@@ -1,9 +1,5 @@
-#include <holberton.h>
-#include <main.h>
-#include <fcntl.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <stdlib.h>
+#include "holberton.h"
+
 /**
  * read_textfile - Reads a text file and prints to the standard output
  * @filename: pointer to the file name
