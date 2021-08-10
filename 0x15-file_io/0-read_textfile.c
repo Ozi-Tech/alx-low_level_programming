@@ -1,5 +1,5 @@
-#include <Holberton.h>
-#include <Main.h>
+#include <holberton.h>
+#include <main.h>
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/stat.h>
